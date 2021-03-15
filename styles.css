@@ -1,0 +1,272 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background: url(https://ak5.picdn.net/shutterstock/videos/6431555/thumb/4.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+header {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+header h1 {
+    color: white;
+    display: flex;
+    grid-row: 2/4;
+    grid-column: 2/4;
+    
+
+}
+ul {
+    color: grey;
+    font-size: 1em;
+    display: inline-flex; 
+    flex-flow: wrap nowrap;
+    text-align: center;      
+}
+
+nav li {
+    display: list-item; 
+    size: 10%;
+    flex-flow: row nowrap;
+    margin-left: 2rem;
+    margin-top: none;
+    cursor: pointer;
+    color: #773dbd;
+    
+   
+}
+
+.LOGO {
+    margin-left: 3%px;
+    margin-top: 1%;
+    width: 4em;
+}
+
+.noBullets {
+    list-style-type: none;
+    size: 100%;
+    font-size: 400px solid;
+}
+
+
+/* MAIN */
+main {
+    margin-left: 5%;
+    size: 100%; 
+}
+
+
+div.mainClass {    
+    background: url(https://img.freepik.com/free-vector/clean-white-cubtle-arrow-style-background_1017-15459.jpg?size=626&ext=jpg);
+    display: inline-flex;
+    background-repeat: no-repeat;
+    background-size: 105%;
+}
+
+h2.rank  {
+   writing-mode: vertical-rl;
+   color: grey;
+   font-size: 25px;
+   height: 6rem;
+   text-indent: 50px;
+   margin-block-start: 0em;
+    margin-block-end: 0.5em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+p.actualRanking {
+    text-align: start;
+    display: inline-block;
+    color:indigo;
+    font-family: 'Modak', cursive;
+   font-family: 'Pacifico', cursive;
+    font-weight: 800; 
+   font-size:100px;
+   margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+   
+   
+}
+
+span {
+    display: inline-block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+span.details {
+        background: #773dbd;
+        width: 100%;
+}
+
+h1 {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.mainClass img{
+    height: 350px;
+    width: 400px;;
+}
+
+.mainClass img:hover {
+    background: url("nb1.jpg") no-repeat ;
+    background-size: 50%;
+}
+
+h1.playerSurname{
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: 300;
+    margin-left: 15px;
+    color: white;
+    font-style: italic;
+}
+
+h1.playerFamilyName{
+    font-family: 'Teko', sans-serif;
+    font-size: 300%;
+    margin-left: 15px;
+    color: white;
+    font-style: italic;
+}
+
+div.countryDetails{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-block-end: 40px;
+    margin-right: 100px;     
+    color: white;
+}
+
+.countryDetails img{
+    width: 35px;
+    height: 25px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 15px;
+    margin-inline-end: 0px;
+}
+
+.details  {
+    font-family: 'Castoro', serif;
+    font-size: 1em;
+}
+
+div .playerDetails{
+    color:white;
+}
+
+.leftDisplay{
+    display: inline-block;
+}
+
+.rightDisplay{
+    display: inline-block;
+    margin-inline-start: 80px;
+}
+
+.playerDetails h1 { 
+    text-indent: 10px;
+    color:pink;
+}
+
+.playerDetails h3 {
+    display: block;
+    font-size: 100%;
+    font-style: italic;
+    color: rgb(225, 227, 228);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 15px;
+    margin-inline-end: 0px;
+    font-weight: 400 solid;
+}
+
+.playerDetails h2 {
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 100%; 
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 10%;
+    margin-inline-end: 0px;
+}
+
+.playerDetails h1{
+    color:white;
+    font-family: 'Teko', sans-serif;
+    justify-content: space-between;
+    text-indent: 10%;
+}
+
+.coach img{
+    width: 50%;
+    height: 50%;
+
+}
+
+.bio{
+    width: 40%;
+    vertical-align: center;
+    margin-left: 17%;
+    justify-content: center;
+    color:white;
+    font-weight: 300;
+}
+
+.youtube{
+    margin-left: 3%;
+    justify-content: center;
+}
+
+.emptySpace{
+    height: 200px;
+    display: flex;
+    margin-top: 5%;
+    justify-content: center;
+    vertical-align: middle; 
+    text-align:center;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin-inline-start: 1.5%;
+    color: white;
+}
+  
+.socials {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 10px solid rgba(0, 0, 0, 0.8);
+    font-size: 300px;
+    width: 30;
+    height:150px;
+  }
+
+.socials:hover {
+    background: blue;
+    background-size: cover;
+}
+
+.copyright{
+    display: inline-block;
+}
+
+
